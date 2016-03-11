@@ -101,10 +101,10 @@ main {
     background: #CCC;
 }
 #title > h1 {
-    font-size: 72px;
+    font-size: 96px;
 }
 #title > h2 {
-    font-size: 36px;
+    font-size: 24px;
     ;
 }
 #mainimg {
@@ -116,21 +116,28 @@ main {
 .footerblock > img {
     width: 90%;
     min-width: 100px;
+
+}
+#verif {
+    margin-top: 30px;
+}
+@media screen and (max-width:650px) {
+    #title > h1 {
+        font-size: 72px;
+    }
 }
 @media screen and (max-width: 500px) {
     .footerblock {
         width: 100%;
         margin: 10px 0px;
-
     }
     #title > h1 {
         font-size: 72px;
         text-align: center;
     }
     #title > h2 {
-        font-size: 36px;
+        font-size: 24px;
         text-align: center;
-
     }
     #imglogo {
         border-top-left-radius: 50%;
@@ -148,7 +155,5 @@ main {
     body {
         max-width: 1000px;
         margin: 0 auto;
-
     }
-
 }
