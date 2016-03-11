@@ -101,12 +101,11 @@ main {
     background: #CCC;
 }
 #title > h1 {
-    font-size: 10vw;
-    font-weight: 100;
+    font-size: 72px;
 }
 #title > h2 {
-    font-size: 5vw;
-    font-weight: 100;
+    font-size: 36px;
+    ;
 }
 #mainimg {
     width: 100%;
@@ -115,6 +114,41 @@ main {
     text-align: left;
 }
 .footerblock > img {
-    width: 80%;
+    width: 90%;
     min-width: 100px;
+}
+@media screen and (max-width: 500px) {
+    .footerblock {
+        width: 100%;
+        margin: 10px 0px;
+
+    }
+    #title > h1 {
+        font-size: 72px;
+        text-align: center;
+    }
+    #title > h2 {
+        font-size: 36px;
+        text-align: center;
+
+    }
+    #imglogo {
+        border-top-left-radius: 50%;
+        width: 50%;
+    }
+    #logo {
+        width: 100%;
+        text-align: center;
+    }
+    #title {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 1000px) {
+    body {
+        max-width: 1000px;
+        margin: 0 auto;
+
+    }
+
 }
