@@ -113,10 +113,9 @@ main {
 #footertitle > * {
     text-align: left;
 }
-.footerblock > img {
+.footerblock > a > img {
     width: 90%;
     min-width: 100px;
-
 }
 #verif {
     margin-top: 30px;
@@ -132,11 +131,14 @@ main {
         margin: 10px 0px;
     }
     #title > h1 {
-        font-size: 72px;
+        font-size: 48px;
         text-align: center;
     }
     #title > h2 {
-        font-size: 24px;
+        font-size: 18px;
+        text-align: center;
+    }
+    #footertitle > * {
         text-align: center;
     }
     #imglogo {
