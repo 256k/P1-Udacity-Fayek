@@ -10,9 +10,19 @@
     font-weight: 200;
     line-height: 1em;
     margin: 0;
-    padding: 0px;
+    padding: 0;
     border: 0;
     text-align: center;
+}
+.paragraph {
+    margin: 10px auto;
+    line-height: 1.2em;
+    width: 60%;
+    font-size: 24px;
+
+}
+.quotes {
+    font-size: 32px;
 }
 
 h3 {
