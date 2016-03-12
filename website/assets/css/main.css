@@ -31,7 +31,7 @@ a {
 }
 
 a:hover {
-    color: #ddd;
+    color: #aaa;
 }
 
 main {
@@ -99,12 +99,12 @@ main {
     width: 100%;
 }
 
-#title > * {
+.title > * {
     text-align: right;
     padding: 6px;
 }
 
-#imglogo {
+.imglogo {
     width: 100%;
     margin-top: 10px;
     margin-left: 10px;
@@ -115,7 +115,7 @@ main {
     border-style: solid;
 }
 
-#separator {
+.separator {
     width: 100%;
     text-align: center;
     margin: 10px 0;
@@ -123,20 +123,20 @@ main {
     background: #ccc;
 }
 
-#title > h1 {
+.title > h1 {
     font-size: 96px;
 }
 
-#title > h2 {
+.title > h2 {
     font-size: 24px;
     ;
 }
 
-#mainimg {
+.mainimg {
     width: 100%;
 }
 
-#footertitle > * {
+.footertitle > * {
     text-align: left;
 }
 
@@ -145,12 +145,12 @@ main {
     min-width: 100px;
 }
 
-#verif {
+.verif {
     margin-top: 30px;
 }
 
 @media screen and (max-width:650px) {
-    #title > h1 {
+    .title > h1 {
         font-size: 72px;
     }
 }
@@ -161,31 +161,31 @@ main {
         margin: 10px 0;
     }
 
-    #title > h1 {
+    .title > h1 {
         font-size: 48px;
         text-align: center;
     }
 
-    #title > h2 {
+    .title > h2 {
         font-size: 18px;
         text-align: center;
     }
 
-    #footertitle > * {
+    .footertitle > * {
         text-align: center;
     }
 
-    #imglogo {
+    .imglogo {
         border-top-left-radius: 50%;
         width: 50%;
     }
 
-    #logo {
+    .logo {
         width: 100%;
         text-align: center;
     }
 
-    #title {
+    .title {
         width: 100%;
     }
 }
