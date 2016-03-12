@@ -14,6 +14,9 @@
     border: 0;
     text-align: center;
 }
+footer {
+    margin-bottom: 30px;
+}
 .paragraph {
     margin: 10px auto;
     line-height: 1.2em;
