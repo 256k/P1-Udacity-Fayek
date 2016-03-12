@@ -1,0 +1,14 @@
+notes from the P1 project reviewer:
+
+no CSS inside of html (done)
+css styles should be separated with a empty line (done)
+no capitalization in any attribute or tag or value (done)
+using double quotes " " instead of single quotes ' ' (done)
+do not use measuring units when the value is 0. (done)
+
+
+the html hirearchy for the gridding should be: container > row(s) > column(s) > content
+
+use srcset for images
+
+IDs are no preferred for targeting styles in CSS, it's better to use CLASSES

@@ -4,6 +4,7 @@
     -ms-box-sizing: border-box;
     box-sizing: border-box;
 }
+
 * {
     font-family: 'Open Sans', sans-serif;
     font-weight: 200;
@@ -13,23 +14,28 @@
     border: 0;
     text-align: center;
 }
+
 h3 {
     font-size: 2em;
     padding: 0.5em;
 }
+
 h4 {
     font-size: 1.5em;
     padding: 0.5em;
 }
+
 a {
     text-decoration: none;
     color: inherit;
 }
+
 a:hover {
-    color: #DDD;
+    color: #ddd;
 }
+
 main {
-    padding: 10px 0px;
+    padding: 10px 0;
 }
 
 /*SIZING CLASSES*/
@@ -39,50 +45,65 @@ main {
     display: flex;
     flex-wrap: wrap;
 }
+
 .rowblock {
     width: 100%;
     display: block;
 }
+
 .col1 {
     width: 8.33%;
 }
+
 .col2 {
     width: 16.66%;
 }
+
 .col3 {
     width: 25%;
 }
+
 .col4 {
     width: 33.33%;
 }
+
 .col5 {
     width: 41.66%;
 }
+
 .col6 {
     width: 50%;
 }
+
 .col7 {
     width: 58.33%;
 }
+
 .col8 {
     width: 66.66%;
 }
+
 .col9 {
     width: 75%;
 }
+
 .col10 {
     width: 83.333333333333%;
 }
+
 .col11 {
     width: 91.66%;
 }
+
 .col12 {
     width: 100%;
 }
+
 #title > * {
     text-align: right;
     padding: 6px;
 }
+
 #imglogo {
     width: 100%;
     margin-top: 10px;
@@ -93,66 +114,82 @@ main {
     border-width: 3px;
     border-style: solid;
 }
+
 #separator {
     width: 100%;
     text-align: center;
-    margin: 10px 0px;
+    margin: 10px 0;
     height: 3px;
-    background: #CCC;
+    background: #ccc;
 }
+
 #title > h1 {
     font-size: 96px;
 }
+
 #title > h2 {
     font-size: 24px;
     ;
 }
+
 #mainimg {
     width: 100%;
 }
+
 #footertitle > * {
     text-align: left;
 }
+
 .footerblock > a > img {
     width: 90%;
     min-width: 100px;
 }
+
 #verif {
     margin-top: 30px;
 }
+
 @media screen and (max-width:650px) {
     #title > h1 {
         font-size: 72px;
     }
 }
+
 @media screen and (max-width: 500px) {
     .footerblock {
         width: 100%;
-        margin: 10px 0px;
+        margin: 10px 0;
     }
+
     #title > h1 {
         font-size: 48px;
         text-align: center;
     }
+
     #title > h2 {
         font-size: 18px;
         text-align: center;
     }
+
     #footertitle > * {
         text-align: center;
     }
+
     #imglogo {
         border-top-left-radius: 50%;
         width: 50%;
     }
+
     #logo {
         width: 100%;
         text-align: center;
     }
+
     #title {
         width: 100%;
     }
 }
+
 @media screen and (min-width: 1000px) {
     body {
         max-width: 1000px;
